@@ -22,6 +22,7 @@ body {
 main {
     display: flex;
     background-color: white;
+    box-shadow: rgba(0,0,0,.4   ) 0px 5px 20px;
     border-radius: 20px;
 }
 
@@ -51,7 +52,7 @@ section {
     position: absolute;
     z-index: 20;
     left: -93px;
-    top: 215px
+    top: 215px;
 }
 
 .illustration {
