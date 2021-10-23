@@ -97,3 +97,56 @@ li p {
     line-height: 17px;
 }
 
+.bg-pattern-cel {
+    display: none;
+}
+
+.illustration-cel {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .bg-pattern {
+        display: none;
+    }
+
+    .bg-pattern-cel {
+        display: block;
+        position:absolute;
+        left: 62.5px;
+        top: 0px;
+    }
+
+    .illustration {
+        display: none;
+    }
+
+    .illustration-cel {
+        display: block;
+        position: absolute;
+        left: 35px;
+        top: -110px;
+    }
+
+    .bg-box {
+        display: none;
+    }
+
+    section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .bg-imgs{
+        padding: 0;
+    }
+
+    h1 {
+        margin-top: 85px;
+    }
+
+    main {
+        margin-top: 100px;
+    }
+}
+
